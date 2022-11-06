@@ -104,5 +104,5 @@ canvas.addEventListener("dblclick", drawfillText);
 load_img.addEventListener("change", handleImage);
 logout.addEventListener("click", () => {
     localStorage.clear();
-    window.location.href = "login.html";
+    window.location.href = "index.html";
 });
