@@ -1,0 +1,14 @@
+.header {
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 3px 3px 3px gray;
+    font-size: 3rem;
+    box-sizing: border-box;
+}
+.header h2 {
+    font-size: 2rem;
+    margin-top: 10px;
+}

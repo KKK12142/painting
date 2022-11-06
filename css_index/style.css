@@ -1,0 +1,26 @@
+@import "reset.css";
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+@import "side_bar.css";
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: "Jua", sans-serif;
+}
+
+.grid {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+        "left1 header header header header right"
+        "left2 main main main main right"
+        "left3 main main main main right"
+        "left4 main main main main right"
+        "left5 main main main main right"
+        "left6 footer footer footer footer right";
+}

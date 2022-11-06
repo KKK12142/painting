@@ -1,0 +1,26 @@
+.footer {
+    grid-area: footer;
+}
+#clock {
+    height: 33.33%;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 10px black;
+}
+#weather {
+    height: 33.33%;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 10px black;
+}
+
+#weather > span {
+    margin-left: 15px;
+    text-shadow: 0 0 10px black;
+}

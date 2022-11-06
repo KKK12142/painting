@@ -1,0 +1,21 @@
+.footer {
+    display: grid;
+    padding: 10px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-area: footer;
+}
+.color-option {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    transition: transform ease-in-out 0.1s;
+    cursor: pointer;
+    border: 3px solid white;
+    box-shadow: 5px 5px 5px rgba(99, 98, 98, 0.705);
+    margin-right: 10px;
+}
+
+.color-option:hover {
+    transform: scale(1.2);
+}
