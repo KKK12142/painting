@@ -5,10 +5,10 @@
     justify-content: center;
     align-items: center;
     text-shadow: 3px 3px 3px gray;
-    font-size: 3rem;
+    font-size: 50px;
     box-sizing: border-box;
 }
 .header h2 {
-    font-size: 2rem;
+    font-size: 30px;
     margin-top: 10px;
 }
