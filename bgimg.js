@@ -8,7 +8,7 @@ function rndNum(min, max) {
 
 function paintImage(n) {
     const image = new Image();
-    image.src = `img/${rndNum(1, n)}.png`;
+    image.src = `./img/${rndNum(1, n)}.png`;
     image.classList.add("bgImage");
     body.appendChild(image);
 }
